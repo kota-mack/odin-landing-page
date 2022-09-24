@@ -10,11 +10,21 @@ body {
 .header {
     background-color:#1F2937;
     margin: 0px;
-    padding: 48px 200px 48px;
+    padding: 48px 100px 48px;
     display: flex;
     font-size: 18px;
     color: #E5E7EB;
     justify-content: space-between;
+}
+
+.hero {
+    background-color:#1F2937;
+    margin: 0px;
+    padding: 48px 100px 48px;
+    display: flex;
+    justify-content: space-between;
+    color: #E5E7EB;
+    gap: 32px;
 }
 
 .links {
@@ -43,7 +53,7 @@ div.logo {
     padding: 0px;
 }
 
-img {
+.element>img {
     width: 100px;
     height: auto;
 }
