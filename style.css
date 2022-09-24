@@ -27,9 +27,9 @@ body {
     margin: 0px;
     padding: 48px 100px 48px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     color: #E5E7EB;
-    gap: 32px;
+    gap: 100px;
 }
 
 .hero-left {
@@ -120,4 +120,21 @@ button {
 
 .container>.element {
     width: 100px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    display:flex;
+    flex-direction: column;
+    padding: 72px 200px 72px;
+}
+
+.quote>p {
+    align-self: center;
+}
+
+.quote>h5 {
+    align-self: flex-end;
 }
