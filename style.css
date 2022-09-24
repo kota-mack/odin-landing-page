@@ -53,8 +53,6 @@ body {
     gap: 24px;
 }
 
-
-
 .logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -94,10 +92,32 @@ button {
     border-color: #E5E7EB
 }
 
-
-
-
 .action {
     background-color: #3882F6;
     margin: 24px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    margin-top: 16px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding: 24px;
+}
+
+.container>.element {
+    width: 100px;
 }
