@@ -17,20 +17,13 @@ body {
     justify-content: space-between;
 }
 
-.logo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 16px;
-}
-
 .logo>img {
     width: 40px;
     height: auto;
 }
 
 .hero-right>img {
-    width: 400px;
+    width: 300px;
     height: auto;
 }
 
@@ -70,6 +63,9 @@ body {
     color: #F9FAF8;
     font-weight: bold;
     display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
 }
 
 a {
